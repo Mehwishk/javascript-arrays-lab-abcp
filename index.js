@@ -38,7 +38,11 @@ newLast.pop();
 return newLast;
 }
 function removeFirstKitten (){
+<<<<<<< HEAD
   var newFirst= [...kittens];
+=======
+   newFirst= [...kittens];
+>>>>>>> 2daa4ffa9c94da72216ad6c2f6864165d15d1b22
   newFirst.shift();
   return newFirst;
 }
